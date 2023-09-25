@@ -1,28 +1,28 @@
 .main {
-	font-family: "Sofia Sans", sans-serif;
+  font-family: "Sofia Sans", sans-serif;
 }
 
 .container {
-	max-width: 90rem;
-	margin: 0 auto;
-	padding: 0.5rem 3rem;
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 0.5rem 3rem;
 }
 
 .con_button {
-	all: unset;
-	margin: 1rem 2.5rem;
-	background: #fff;
-	border-radius: 10rem;
-	padding: 0.25rem 1rem;
-	border: 1px solid #a7a7a7;
-	cursor: pointer;
+  all: unset;
+  margin: 1rem 2.5rem;
+  background: #fff;
+  border-radius: 10rem;
+  padding: 0.25rem 1rem;
+  border: 1px solid #a7a7a7;
+  cursor: pointer;
 }
 
-@media (-webkit-max-device-pixel-ratio: 1.25) {
-	.con_button {
-		margin: 1rem 0;
-	}
-	.container {
-		padding: 1rem 0.5rem;
-	}
+@media screen and (min-width: 1440px) and (-webkit-max-device-pixel-ratio: 1.25) {
+  .con_button {
+    margin: 1rem 0;
+  }
+  .container {
+    padding: 1rem 0.5rem;
+  }
 }
