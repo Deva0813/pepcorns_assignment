@@ -8,7 +8,7 @@ const DetailBox = () => {
         <p>
           <span>
             <img
-              src="/images/globe-alt.svg"
+              src="/pepcorns_assignment/images/globe-alt.svg"
               alt="global"
               width={25}
               height={25}
@@ -19,7 +19,7 @@ const DetailBox = () => {
           </span>
           <span>
             <img
-              src="/public/images/card.svg"
+              src="/pepcorns_assignment/images/card.svg"
               alt="card"
               width={25}
               height={25}
