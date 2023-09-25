@@ -1,5 +1,7 @@
 .navbar {
   background: black;
+  position: sticky;
+  top: 0;
 }
 
 .container {
@@ -55,11 +57,11 @@
   background-color: #e3e3e3;
 }
 
-@media (-webkit-max-device-pixel-ratio: 1.25) {
-   .leftLink{
+@media screen and (min-width: 1440px) and (-webkit-max-device-pixel-ratio: 1.25) {
+  .leftLink {
     padding-left: 0;
-   } 
-   .rightLink{
-    padding-right: 0;
-   }
   }
+  .rightLink {
+    padding-right: 0;
+  }
+}
