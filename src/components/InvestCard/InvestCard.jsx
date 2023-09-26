@@ -8,7 +8,7 @@ const InvestCard = props => {
     
     return (
         <div className={style.card}>
-            <h2>{ " ₹ " + data.amount} <img src="/public/images/arrow-trending-up.svg" alt="invest" height={25}/></h2>
+            <h2>{ " ₹ " + data.amount} <img src="/pepcorns_assignment/images/arrow-trending-up.svg" alt="invest" height={25}/></h2>
             <span className={style.subtitle} >Rewards</span>
             <ul>
                 {data.rewards.map((value,index)=>{
