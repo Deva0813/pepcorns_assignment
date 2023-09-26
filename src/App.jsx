@@ -1,6 +1,6 @@
 import './App.css'
-import ContentPage from './components/ContentPage/ContentPage'
 import Navbar from './components/Navbar/Navbar'
+import ContentPage from './pages/ContentPage/ContentPage'
 
 function App() {
 

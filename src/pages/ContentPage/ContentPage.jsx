@@ -1,5 +1,6 @@
-import DetailBox from "../DetailBox/DetailBox";
-import TitleCard from "../TitleCard/TitleCard";
+import ContentSection from "../../components/ContentSection/ContentSection";
+import DetailBox from "../../components/DetailBox/DetailBox";
+import TitleCard from "../../components/TitleCard/TitleCard";
 import style from "./ContentPage.module.css";
 
 const ContentPage = () => {
@@ -10,6 +11,7 @@ const ContentPage = () => {
       </div>
       <TitleCard />
       <DetailBox />
+      <ContentSection />
     </div>
   );
 };

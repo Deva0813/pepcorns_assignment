@@ -34,7 +34,7 @@ const DetailBox = () => {
             src="https://www.youtube.com/embed/kFII05-bhGU?si=2gj862HEQp0GaiOz"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
         </div>
         <div className={style.invest_details}>

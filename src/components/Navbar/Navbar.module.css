@@ -2,6 +2,7 @@
   background: black;
   position: sticky;
   top: 0;
+  z-index: 100;
 }
 
 .container {
@@ -13,6 +14,7 @@
   place-content: center;
   align-items: center;
   font-family: "Poppins", sans-serif;
+  font-size: 0.85rem;
 }
 
 .leftLink {

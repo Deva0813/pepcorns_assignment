@@ -1,7 +1,8 @@
 .main {
   max-width: 90rem;
   margin: 0 auto;
-	padding: 0 3rem;
+  padding: 0 3rem;
+  padding-bottom: 2rem;
 }
 
 .main h2 {
@@ -30,64 +31,72 @@
 }
 .desc a:hover {
   text-decoration: underline;
-  color: #F2288E;
+  color: #f2288e;
 }
 
 @media (-webkit-max-device-pixel-ratio: 1.25) {
-	.main{
-		padding: auto;
-	}
+  .main {
+    padding: auto;
+	padding-bottom: 2rem;
+  }
 }
-.yt_video{
-	display: grid;
-	/* place-content: center; */
-}
-
-.yt_video iframe{
-	height: 25rem;
-	width: 50vw;
-	/* aspect-ratio: 16/9; */
+.yt_video {
+  display: flex;
+  height: 25rem;
 }
 
-.invest_box{
-	display: grid;
-	grid-template-columns: auto 1fr;
-	gap: 2rem;
+.yt_video iframe {
+  flex: 1;
 }
 
-.invest_details{
+.invest_box {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
 
-	border-top: 1px solid #aeaeae;
-	border-bottom: 1px solid #aeaeae;
-	display: grid;
-	place-content: center;
+.invest_details {
+  border-top: 1px solid #aeaeae;
+  border-bottom: 1px solid #aeaeae;
+  display: grid;
+  place-content: center;
 }
 
 .txtBox {
-	font-size: 1.3rem;
-	font-weight: 600;
-	color: #1b1b1b;
-	min-width: 20rem;
-	max-width: 25rem;
-	padding: 1rem ;
-	border-bottom: 1px solid #aeaeae;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1b1b1b;
+  min-width: 20rem;
+  max-width: 25rem;
+  padding: 1rem;
+  border-bottom: 1px solid #aeaeae;
 }
 
-.txtBox span:nth-child(3){
-	color: #787878;
-	font-size: .9rem !important;
-} 
-
-.invest_details button{
-	all: unset;
-	color: aliceblue;
-	background: #1b1b1b;
-	padding: 1.25rem;
-	font-size: 1.25rem;
-	min-width: 20rem;
-	max-width: 25rem;
-	text-align: center;
+.txtBox span:nth-child(3) {
+  color: #787878;
+  font-size: 0.9rem !important;
 }
-.invest_details p{
-	text-align: center;
+
+.invest_details button {
+  all: unset;
+  color: aliceblue;
+  background: #1b1b1b;
+  padding: 1.25rem;
+  font-size: 1.25rem;
+  min-width: 20rem;
+  max-width: 25rem;
+  text-align: center;
+  border: 2px solid #1b1b1b;
+  transition: all ease-in-out 300ms;
+}
+
+.invest_details button:hover {
+  /* color: #1b1b1b; */
+  background-color: #f2288e;
+  border: 2px solid #f2288e;
+  font-weight: 600;
+}
+
+.invest_details p {
+  text-align: center;
 }

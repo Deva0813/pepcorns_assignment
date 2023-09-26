@@ -30,6 +30,14 @@
   margin-right: 1rem;
   font-size: 1.25rem;
   font-weight: 400;
+  transition: all ease-in-out 300ms;
+}
+
+.titlebtn button:hover{
+  transition: all ease-in-out 300ms;
+  color: #fff;
+  background-color: #f2288e;
+  border-radius: 2rem;
 }
 
 .titleTxt {

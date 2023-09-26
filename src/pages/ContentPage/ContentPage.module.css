@@ -18,7 +18,7 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 1440px) and (-webkit-max-device-pixel-ratio: 1.25) {
+@media screen and (max-width: 1440px) and (-webkit-max-device-pixel-ratio: 1.25) {
   .con_button {
     margin: 1rem 0;
   }
