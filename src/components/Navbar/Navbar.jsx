@@ -10,7 +10,7 @@ const Navbar = () => {
           <a href="/">Learn</a>
         </div>
         <div className={style.logo}>
-          <img src="/pepcorns_assignment/images/logo.png" width={110} alt="logo" />
+          <img src="/pepcorns_assignment/images/logo.png" width={130} alt="logo" />
         </div>
         <div className={style.rightLink}>
           <a href="/">Login</a>

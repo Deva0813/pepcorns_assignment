@@ -1,0 +1,23 @@
+.container {
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 0.5rem 3rem;
+}
+
+.sec_nav_buttons{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.40);
+}
+
+.sec_nav_buttons button{
+    all: unset;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #1b1b1b;
+    margin-right: 2px;
+}   
+
+.active{
+    color: #fff !important;
+    background: #1b1b1b !important;
+}
