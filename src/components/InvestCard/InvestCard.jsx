@@ -20,7 +20,7 @@ const InvestCard = props => {
             <li>{data.t_c}</li>
             </ul>
             <button>Invest &nbsp; {" ₹ " + data.amount}</button>
-            <span className={style.subtitle} > CSOP <span> Limited ( {data.csop.left} of {data.csop.max} left) </span></span> 
+            <span className={style.subtitle} > CSOP <span> Limited ( {data.csop.left} of {data.csop.max} left ) </span></span> 
             
         </div>
     );

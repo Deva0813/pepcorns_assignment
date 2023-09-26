@@ -1,0 +1,40 @@
+.main{
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-top: none;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    background: #F9F8FE;
+}
+
+.head{
+    display: flex;   
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link{
+    all: unset;
+    cursor: pointer;
+    background: #0077ff;
+    color: white;
+    padding: .3rem .75rem;
+    border-radius: .25rem;
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.body{
+    padding-top: 2rem;
+}
+
+.image{
+    aspect-ratio: 16/9;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    border: 2px solid #f2288e;
+}
