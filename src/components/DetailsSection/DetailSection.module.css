@@ -85,6 +85,10 @@
   border-radius: 10rem;
 }
 
+.faq{
+  padding: .25rem 0;
+}
+
 .faq p{
   color: #5f5f5f;
   line-height: 2rem;
