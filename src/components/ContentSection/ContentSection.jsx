@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import style from "./ContentSection.module.css";
+import {data} from "../../assets/InvestCardData"
+import InvestCard from "../InvestCard/InvestCard";
 
 const ContentSection = () => {
   const [activeBtn, setActiveBtn] = useState("pitch");
@@ -52,7 +54,9 @@ const ContentSection = () => {
             />
           </button>
           <div className={style.invest_sec}>
-            hello
+            {data.map((item, index)=>{
+                return <InvestCard invest_data={item} key={index}/>
+            })}
           </div>
         </div>
       </div>

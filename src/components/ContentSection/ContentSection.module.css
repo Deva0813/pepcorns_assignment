@@ -53,6 +53,7 @@
   cursor: pointer;
   position: relative;
   transition: all ease-in-out 150ms;
+  scale: .975;
 }
 
 .doc_file_box img {
@@ -63,6 +64,8 @@
 .doc_file_box:hover {
   background: #1b1b1b;
   color: white;
+  scale: 1;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
 
 .doc_file_box:hover img {
@@ -71,6 +74,4 @@
 
 .invest_sec{
     margin: 1rem 0rem;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    height: 100vh;
 }
