@@ -4,6 +4,8 @@ import {data} from "../../assets/InvestCardData"
 import InvestCard from "../InvestCard/InvestCard";
 import PitchSection from "../PitchSection/PitchSection";
 import DetailSection from "../DetailsSection/DetailSection";
+import DiscussionSection from "../DiscussionSection/DiscussionSection";
+import UpdateSection from "../UpdateSection/UpdateSection";
 
 const ContentSection = () => {
   const [activeBtn, setActiveBtn] = useState("pitch");
@@ -42,8 +44,8 @@ const ContentSection = () => {
         <div className={style.content}>
           {activeBtn == "pitch" ? <PitchSection/> : null}
           {activeBtn == "details" ? <DetailSection/> : null}
-          {activeBtn == "discussion" ? "Discussion" : null}
-          {activeBtn == "updates" ? "Updates" : null}
+          {activeBtn == "discussion" ? <DiscussionSection/> : null}
+          {activeBtn == "updates" ? <UpdateSection/> : null}
         </div>
         <div className={style.doc_sec}>
           <h2>Documents</h2>

@@ -39,7 +39,7 @@ const PitchSection = () => {
             <div
               key={index}
               className={style.image}
-              style={{ background: `url("/images/deck/${value}.png")` }}
+              style={{ background: `url("/pepcorns_assignment/images/deck/${value}.png")` }}
             ></div>
           );
         })}
