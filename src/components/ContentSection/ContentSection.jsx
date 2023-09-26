@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import style from "./ContentSection.module.css";
 import {data} from "../../assets/InvestCardData"
 import InvestCard from "../InvestCard/InvestCard";
+import PitchSection from "../PitchSection/PitchSection";
 
 const ContentSection = () => {
   const [activeBtn, setActiveBtn] = useState("pitch");
@@ -38,25 +39,26 @@ const ContentSection = () => {
 
       <div className={style.sec_cont}>
         <div className={style.content}>
-          {activeBtn == "pitch" ? "Pitch" : null}
+          {activeBtn == "pitch" ? <PitchSection/> : null}
           {activeBtn == "details" ? "Details" : null}
           {activeBtn == "discussion" ? "Discussion" : null}
           {activeBtn == "updates" ? "Updates" : null}
         </div>
         <div className={style.doc_sec}>
           <h2>Documents</h2>
-          <button className={style.doc_file_box}>
+          <a className={style.doc_file_box} href="/pepcorns_assignment/files/icon1677255822062.zip" download={"icon1677255822062.zip"} >
             CosIQ.zip
             <img
               src="/pepcorns_assignment/images/download.svg"
               alt="down"
               height={20}
             />
-          </button>
+          </a>
           <div className={style.invest_sec}>
             {data.map((item, index)=>{
                 return <InvestCard invest_data={item} key={index}/>
             })}
+            <p>Custom Offer ? &nbsp; <a href="/">Click Here</a></p>
           </div>
         </div>
       </div>
