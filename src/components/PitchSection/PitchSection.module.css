@@ -19,6 +19,8 @@
     color: white;
     padding: .3rem .75rem;
     border-radius: .25rem;
+    display: flex;
+    align-items: center;
 }
 .title{
     font-size: 1.5rem;
