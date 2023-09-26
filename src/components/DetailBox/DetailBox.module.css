@@ -43,17 +43,15 @@
 .yt_video {
   display: flex;
   height: 25rem;
-  /* place-content: center; */
 }
 
 .yt_video iframe {
   flex: 1;
-  /* aspect-ratio: 16/9; */
 }
 
 .invest_box {
   display: grid;
-  grid-template-columns: auto 30rem;
+  grid-template-columns: 2fr 1fr;
   gap: 2rem;
 }
 
