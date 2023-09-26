@@ -10,7 +10,7 @@ const DiscussionSection = () => {
             <div className={style.body}>
                 <div className={style.no_msg}>
                 <div className="">
-                <img src="/public/images/no_msg.svg" width={250}  alt="no msg" />
+                <img src="/pepcorns_assignment/images/no_msg.svg" width={250}  alt="no msg" />
                 </div> <br />
                 <p>No Comments Found. Be the first one to comment!</p>
                 </div>
