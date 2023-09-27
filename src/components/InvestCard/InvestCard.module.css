@@ -61,7 +61,7 @@
     background: #0089e4;
 }
 
-@media screen {
+@media screen and (max-width: 48rem) {
     .card{
         padding: .5rem 1.5rem;
         padding-bottom: 1rem;
