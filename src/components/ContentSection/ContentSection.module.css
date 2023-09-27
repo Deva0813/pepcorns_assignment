@@ -33,10 +33,6 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.content {
-
-}
-
 .doc_sec {
   padding-left: 1rem;
   display: flex;
@@ -82,4 +78,32 @@
 }
 .invest_sec a:hover{
   color: #00a2ff;
+}
+
+@media screen and (max-width:48rem) {
+  .container{
+    padding: 0 1rem;
+  }
+
+  .sec_nav_buttons{
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .sec_nav_buttons button{
+    font-size: 0.9rem;
+    text-align: center;
+    padding: .75rem 1rem;
+  }
+
+  .sec_cont{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .isMobile{
+    display: none;
+  }
+
 }

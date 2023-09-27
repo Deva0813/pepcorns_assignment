@@ -22,3 +22,15 @@
     place-content: center;
     text-align: center;
 }
+
+@media screen and (max-width:48rem) {
+    .main{
+      padding: 1rem;
+    }
+    .title{
+      font-size: 1.5rem;
+    }
+    .no_msg{
+      scale: .85;
+    }
+}

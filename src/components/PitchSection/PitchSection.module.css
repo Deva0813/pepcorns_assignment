@@ -41,3 +41,30 @@
     margin-bottom: 2rem;
     border: 2px solid #f2288e;
 }
+
+@media screen and (max-width:48rem) {
+    .main{
+        padding: 1rem;
+    }   
+    .title{
+        font-size: 1.25rem;
+    }
+    .link{
+        padding:.25rem.5rem;
+        font-size:.8rem;
+    }
+    .link svg{
+        scale: .8;
+    }
+    .head{
+        margin-bottom: 1rem;
+    }
+    .body{
+        padding-top: 1rem;
+    }
+    .image{
+        border: 1px solid #f2288e;
+        border-radius: .5rem;
+    }
+    
+}

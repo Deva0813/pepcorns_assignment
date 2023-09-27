@@ -1,11 +1,10 @@
 import { useState, useEffect } from "react";
 import style from "./ContentSection.module.css";
-import {data} from "../../assets/InvestCardData"
-import InvestCard from "../InvestCard/InvestCard";
 import PitchSection from "../PitchSection/PitchSection";
 import DetailSection from "../DetailsSection/DetailSection";
 import DiscussionSection from "../DiscussionSection/DiscussionSection";
 import UpdateSection from "../UpdateSection/UpdateSection";
+import { documentSec } from "./features/documentSec";
 
 const ContentSection = () => {
   const [activeBtn, setActiveBtn] = useState("pitch");
@@ -47,26 +46,11 @@ const ContentSection = () => {
           {activeBtn == "discussion" ? <DiscussionSection/> : null}
           {activeBtn == "updates" ? <UpdateSection/> : null}
         </div>
-        <div className={style.doc_sec}>
-          <h2>Documents</h2>
-          <a className={style.doc_file_box} href="/pepcorns_assignment/files/icon1677255822062.zip" download={"icon1677255822062.zip"} >
-            CosIQ.zip
-            <img
-              src="/pepcorns_assignment/images/download.svg"
-              alt="down"
-              height={20}
-            />
-          </a>
-          <div className={style.invest_sec}>
-            {data.map((item, index)=>{
-                return <InvestCard invest_data={item} key={index}/>
-            })}
-            <p>Custom Offer ? &nbsp; <a href="/">Click Here</a></p>
-          </div>
-        </div>
+        {documentSec()}
       </div>
     </div>
   );
 };
 
 export default ContentSection;
+

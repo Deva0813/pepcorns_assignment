@@ -11,7 +11,7 @@ const ContentPage = () => {
       </div>
       <TitleCard />
       <DetailBox />
-      {/* <ContentSection /> */}
+      <ContentSection />
     </div>
   );
 };

@@ -1,4 +1,3 @@
-import React from "react";
 import style from "./DetailSection.module.css";
 import {faq_list} from "../../assets/faqList";
 
