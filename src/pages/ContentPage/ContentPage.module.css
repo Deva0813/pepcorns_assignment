@@ -27,3 +27,15 @@
     padding: 1rem 0.5rem;
   }
 }
+
+@media screen and (max-width:48rem) {
+  .container {
+    padding: 0.25rem 1rem;
+  }
+
+  .con_button {
+    margin: 0.5rem 0;
+    font-size: .9rem;
+  }
+
+}

@@ -33,10 +33,6 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.content {
-
-}
-
 .doc_sec {
   padding-left: 1rem;
   display: flex;
@@ -82,4 +78,68 @@
 }
 .invest_sec a:hover{
   color: #00a2ff;
+}
+
+.mobile_btn{
+  display: none;
+}
+
+.modal_overlay{
+  background: rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width:48rem) {
+  .container{
+    padding: 0 1rem;
+  }
+
+  .sec_nav_buttons{
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .sec_nav_buttons button{
+    font-size: 0.9rem;
+    text-align: center;
+    padding: .75rem 1rem;
+  }
+
+  .sec_cont{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .doc_sec{
+    padding-left: 0rem;
+  }
+
+  .doc_file_box{
+    scale: 1;
+    margin-bottom: 1rem;
+  }
+
+  .invest_sec{
+    display: none !important;
+  }
+
+  .mobile_btn{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .mobile_btn button{
+    all: unset;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    background: #0051ff;
+    margin-right: 2px;
+    transition: all ease-in-out 300ms;
+    margin-bottom: 1rem;
+  }
+
 }

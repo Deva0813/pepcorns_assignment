@@ -1,4 +1,3 @@
-import React from "react";
 import style from "./Footer.module.css";
 import { paragraph } from "./Features/paragraph";
 import { contact } from "./Features/contact";
