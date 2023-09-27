@@ -10,8 +10,8 @@ const ContentPage = () => {
         <button className={style.con_button}>{"Back"}</button>
       </div>
       <TitleCard />
-      {/* <DetailBox />
-      <ContentSection /> */}
+      <DetailBox />
+      {/* <ContentSection /> */}
     </div>
   );
 };

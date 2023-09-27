@@ -81,6 +81,10 @@
     grid-template-columns: 1fr;
   }
 
+  .comp_details{
+    padding-top: 2rem;
+  }
+
   .comp_details img {
     width: 150px !important;
   }
