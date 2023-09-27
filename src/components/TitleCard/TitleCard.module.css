@@ -33,7 +33,7 @@
   transition: all ease-in-out 300ms;
 }
 
-.titlebtn button:hover{
+.titlebtn button:hover {
   transition: all ease-in-out 300ms;
   color: #fff;
   background-color: #f2288e;
@@ -82,4 +82,67 @@
   background-size: cover;
   border-radius: 1rem;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 48rem) {
+  .container {
+    padding: 0.25rem 1rem;
+  }
+
+  .com_logo {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 0.5rem;
+  }
+
+  .titleBox {
+    padding-top: 0.75rem;
+    grid-template-columns: 7rem auto;
+  }
+
+  .title {
+    padding-left: 1rem;
+    grid-template-rows: 0.5fr 0.5fr;
+  }
+
+  .titleTxt {
+    grid-template-rows: 1.5fr 1fr;
+  }
+
+  .titleTxt div:nth-child(1) {
+    font-size: 1.35rem;
+  }
+
+  .titleTxt div:nth-child(2) {
+    font-size: 1rem;
+  }
+
+  .titlebtn button {
+    font-size: 0.8rem;
+    padding: 0.125rem 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 0.125rem;
+  }
+
+  .tags p {
+    font-size: 0.8rem;
+  }
+
+  .tags span:nth-child(1) {
+    padding-right: 0.5rem;
+  }
+
+  .tags span:nth-child(2) {
+    padding-right: 0.5rem;
+  }
+}
+
+@media screen and (max-width:30rem) {
+
+  .tags span:nth-child(1)::after {
+    content: "\a";
+    white-space: pre !important;
+  }  
+
+
 }
