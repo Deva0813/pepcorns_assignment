@@ -4,7 +4,8 @@ import PitchSection from "../PitchSection/PitchSection";
 import DetailSection from "../DetailsSection/DetailSection";
 import DiscussionSection from "../DiscussionSection/DiscussionSection";
 import UpdateSection from "../UpdateSection/UpdateSection";
-import { documentSec } from "./features/documentSec";
+import DocumentSec from "./features/documentSec";
+
 
 const ContentSection = () => {
   const [activeBtn, setActiveBtn] = useState("pitch");
@@ -46,7 +47,7 @@ const ContentSection = () => {
           {activeBtn == "discussion" ? <DiscussionSection/> : null}
           {activeBtn == "updates" ? <UpdateSection/> : null}
         </div>
-        {documentSec()}
+        <DocumentSec/>
       </div>
     </div>
   );

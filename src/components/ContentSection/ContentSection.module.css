@@ -80,6 +80,14 @@
   color: #00a2ff;
 }
 
+.mobile_btn{
+  display: none;
+}
+
+.modal_overlay{
+  background: rgba(0, 0, 0, 0.2);
+}
+
 @media screen and (max-width:48rem) {
   .container{
     padding: 0 1rem;
@@ -102,8 +110,36 @@
     flex-direction: column-reverse;
   }
 
-  .isMobile{
-    display: none;
+  .doc_sec{
+    padding-left: 0rem;
+  }
+
+  .doc_file_box{
+    scale: 1;
+    margin-bottom: 1rem;
+  }
+
+  .invest_sec{
+    display: none !important;
+  }
+
+  .mobile_btn{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .mobile_btn button{
+    all: unset;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    background: #0051ff;
+    margin-right: 2px;
+    transition: all ease-in-out 300ms;
+    margin-bottom: 1rem;
   }
 
 }
